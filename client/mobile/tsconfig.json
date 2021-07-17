@@ -1,5 +1,10 @@
 {
   "extends": "expo/tsconfig.base",
+  "rootDir": "../../",
+  "baseUrl": "../../",
+  "paths": {
+	"shared/*": ["./client/shared/*"],
+  },
   "compilerOptions": {
     "strict": true
   }

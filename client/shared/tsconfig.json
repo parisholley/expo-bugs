@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "rootDir": "../../",
+    "baseUrl": "../../",
+    "incremental": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "removeComments": false,
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "module": "ES2020",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2018",
+    "types": ["react"],
+    "lib": [
+      "es2015",
+      "dom",
+      "es2019.array",
+      "es2018.promise",
+      "es2018",
+      "esnext.asynciterable",
+      "es2016.array.include",
+      "es2017.object"
+    ],
+    "jsx": "react"
+  }
+}
