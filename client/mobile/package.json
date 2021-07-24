@@ -1,5 +1,4 @@
 {
-  "main": "__generated__/AppEntry.js",
   "scripts": {
     "start": "react-native start",
     "android": "react-native run-android",
@@ -8,20 +7,46 @@
     "eject": "expo eject",
     "postinstall": "expo-yarn-workspaces postinstall"
   },
+    "expo-yarn-workspaces": {
+    "symlinks": [
+      "@unimodules/core",
+      "@unimodules/react-native-adapter",
+      "expo-application",
+      "expo-asset",
+      "expo-constants",
+      "expo-error-recovery",
+      "expo-file-system",
+      "expo-font",
+      "expo-image-loader",
+      "expo-keep-awake",
+      "expo-modules-core",
+      "expo-splash-screen",
+      "expo-structured-headers",
+      "expo-updates-interface",
+      "expo-updates",
+      "unimodules-app-loader",
+      "sentry-expo",
+      "unimodules-task-manager-interface"
+    ]
+  },
   "dependencies": {
     "expo": "~42.0.1",
+    "expo-application": "~3.2.0",
+    "expo-constants": "~11.0.1",
+    "expo-device": "~3.3.0",
+    "expo-splash-screen": "~0.11.2",
     "expo-status-bar": "~1.0.4",
+    "expo-updates": "~0.8.2",
+    "expo-yarn-workspaces": "^1.5.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "~0.63.4",
-    "expo-yarn-workspaces": "^1.5.2",
-    "react-native-web": "~0.13.12",
-    "expo-splash-screen": "~0.11.2",
-    "expo-updates": "~0.8.1",
     "react-native-gesture-handler": "~1.10.2",
     "react-native-reanimated": "~2.2.0",
     "react-native-screens": "~3.4.0",
-    "react-native-unimodules": "~0.14.5"
+    "react-native-unimodules": "~0.14.5",
+    "react-native-web": "~0.13.12",
+    "sentry-expo": "^4.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",

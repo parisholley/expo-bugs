@@ -2,8 +2,8 @@
     "private": true,
     "workspaces": {
         "packages": [
-            "./client/mobile",
-            "./client/shared"
+            "client/mobile",
+            "client/shared"
         ]
     },
     "dependencies": {
